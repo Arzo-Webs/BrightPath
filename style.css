@@ -1,0 +1,145 @@
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  line-height: 1.7;
+}
+
+.blockquote-footer {
+  color: #555;
+  font-style: italic;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1c2331;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c59d5f; /* Gold accent */
+}
+
+
+#hero {
+  background: linear-gradient(to right, #1c2331, #3a4756);
+  color: #fff;
+  padding: 120px 0;
+}
+
+#hero h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+#hero .btn-primary {
+  background-color: #c59d5f;
+  border: none;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+}
+
+#hero .btn-primary:hover {
+  background-color: #a58040;
+}
+
+
+#features h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1c2331;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  color: #1c2331;
+  font-weight: 600;
+}
+
+
+#mission {
+  background-color: #f8f9fa;
+  border-top: 2px solid #c59d5f;
+  border-bottom: 2px solid #c59d5f;
+  padding: 60px 0;
+}
+
+#mission h2 {
+  font-weight: 700;
+  color: #1c2331;
+}
+
+#mission p {
+  font-size: 1.1rem;
+}
+
+#contact h2 {
+  font-weight: 700;
+  color: #1c2331;
+}
+
+form .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+form .btn-primary {
+  background-color: #1c2331;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+form .btn-primary:hover {
+  background-color: #000814;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(28, 35, 49, 0.7);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+footer {
+  background-color: #1c2331;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+
+.btn {
+  background-color: #ced4da;
+  animation: star 4s infinite;
+}
+
+.btn:hover .star {
+  font-display: block;
+  filter: drop-shadow(0 0 10px rgb(113, 113, 184));
+}
